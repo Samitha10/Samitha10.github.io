@@ -335,7 +335,8 @@ main {
 
 .avatar-box {
   background: var(--bg-gradient-onyx);
-  border-radius: 20px;
+  border-radius: 15px;
+
 }
 
 .info-content .name {
@@ -1347,9 +1348,10 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .sidebar-info { gap: 25px; }
 
-  .avatar-box { border-radius: 30px; }
+  .avatar-box { border-radius: 20px; }
 
-  .avatar-box img { width: 120px; }
+  .avatar-box img { width: 120px;
+                    }
 
   .info-content .name { margin-bottom: 15px; }
 
@@ -1845,7 +1847,8 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .sidebar-info { flex-direction: column; }
 
-  .avatar-box img { width: 150px; }
+  .avatar-box img { width: 150px;
+}
 
   .info-content .name {
     white-space: nowrap;
@@ -1888,5 +1891,10 @@ textarea.form-input::-webkit-resizer { display: none; }
 	 */
 
   .timeline-text { max-width: 700px; }
+
+  .stretch-horizontal {
+    width: 200%;
+  }
+
 
 }
