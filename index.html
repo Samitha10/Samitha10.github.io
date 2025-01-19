@@ -31,7 +31,12 @@ Feel free to edit the HTML and CSS to make it your own. You can also check the R
   -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet"> -->
 </head>
 
 <body>
@@ -259,7 +264,7 @@ Feel free to edit the HTML and CSS to make it your own. You can also check the R
 
               <div class="service-icon-box">
 
-                <img src="./assets/images/genai.png" alt="Gen AI icon" width="40">
+                <img src="./assets/images/genai.png" alt="Personal Projects icon" width="40">
 
               </div>
 
@@ -477,7 +482,7 @@ Feel free to edit the HTML and CSS to make it your own. You can also check the R
         <!--
           - clients
         -->
-        <!-- 
+
         <section class="clients">
 
           <h3 class="h3 clients-title">Clients</h3>
@@ -486,11 +491,11 @@ Feel free to edit the HTML and CSS to make it your own. You can also check the R
 
             <li class="clients-item">
               <a href="#">
-                <img src="./assets/images/logo-1-color.png" alt="client logo">
+                <img src="./assets/images/mooflife.jpg" alt="client logo" style="border-radius:12px">
               </a>
             </li>
 
-            <li class="clients-item">
+            <!-- <li class="clients-item">
               <a href="#">
                 <img src="./assets/images/logo-2-color.png" alt="client logo">
               </a>
@@ -518,7 +523,7 @@ Feel free to edit the HTML and CSS to make it your own. You can also check the R
               <a href="#">
                 <img src="./assets/images/logo-6-color.png" alt="client logo">
               </a>
-            </li>
+            </li> -->
 
           </ul>
 
@@ -799,17 +804,14 @@ Feel free to edit the HTML and CSS to make it your own. You can also check the R
             <li class="filter-item">
               <button class="active" data-filter-btn>All</button>
             </li>
-
             <li class="filter-item">
-              <button data-filter-btn>Gen AI</button>
+              <button data-filter-btn>Client's Projects</button>
             </li>
-
             <li class="filter-item">
-              <button data-filter-btn>Machine Learning</button>
+              <button data-filter-btn>Personal Projects</button>
             </li>
-
             <li class="filter-item">
-              <button data-filter-btn>Other Developments</button>
+              <button data-filter-btn>Academic Projects</button>
             </li>
 
           </ul>
@@ -833,16 +835,15 @@ Feel free to edit the HTML and CSS to make it your own. You can also check the R
               </li>
 
               <li class="select-item">
-                <button data-select-item>Gen AI</button>
+                <button data-select-item>Client's Projects</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Personal Projects</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Academic Projects</button>
               </li>
 
-              <li class="select-item">
-                <button data-select-item>Machine Learning</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Other Developments</button>
-              </li>
 
             </ul>
 
@@ -850,7 +851,7 @@ Feel free to edit the HTML and CSS to make it your own. You can also check the R
 
           <ul class="project-list">
 
-            <li class="project-item  active" data-filter-item data-category="gen ai">
+            <li class="project-item  active" data-filter-item data-category="personal projects">
               <a href="https://github.com/Samitha10/AI-Assistant" , target="_blank">
 
                 <figure class="project-img">
@@ -863,12 +864,12 @@ Feel free to edit the HTML and CSS to make it your own. You can also check the R
 
                 <h3 class="project-title">Customer Service AI Assistant | END to END</h3>
 
-                <p class="project-category">Gen AI</p>
+                <p class="project-category">Personal Projects</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="gen ai">
+            <li class="project-item  active" data-filter-item data-category="personal projects">
               <a href="https://github.com/Samitha10/RAG-Chatbot" , target="_blank">
 
                 <figure class="project-img">
@@ -881,12 +882,12 @@ Feel free to edit the HTML and CSS to make it your own. You can also check the R
 
                 <h3 class="project-title">RAG Chatbot with History</h3>
 
-                <p class="project-category">Gen AI</p>
+                <p class="project-category">Personal Projects</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="machine learning">
+            <li class="project-item  active" data-filter-item data-category="academic projects">
               <a href="https://github.com/Samitha10/Financial-Planning-with-AI" , target="_blank">
 
                 <figure class="project-img">
@@ -899,12 +900,12 @@ Feel free to edit the HTML and CSS to make it your own. You can also check the R
 
                 <h3 class="project-title">Financial Planning with AI | Full Stack</h3>
 
-                <p class="project-category">Machine Learning</p>
+                <p class="project-category">Academic Projects</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="machine learning">
+            <li class="project-item  active" data-filter-item data-category="academic projects">
               <a href="https://github.com/Samitha10/Student-Performance-Prediction-End-to-End" , target="_blank">
 
                 <figure class="project-img">
@@ -917,12 +918,12 @@ Feel free to edit the HTML and CSS to make it your own. You can also check the R
 
                 <h3 class="project-title">Student Performance Prediction | END to END</h3>
 
-                <p class="project-category">Machine Learning</p>
+                <p class="project-category">Academic Projects</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="other developments">
+            <li class="project-item  active" data-filter-item data-category="academic projects">
               <a href="https://github.com/Samitha10/Enterprise-Software-Development-Vision-Care-UML-Diagram" ,
                 target="_blank">
 
@@ -936,7 +937,7 @@ Feel free to edit the HTML and CSS to make it your own. You can also check the R
 
                 <h3 class="project-title">Enterprise Software Development (Design) – Vision Care Optical</h3>
 
-                <p class="project-category">Other Developments</p>
+                <p class="project-category">Academic Projects</p>
 
               </a>
             </li>
