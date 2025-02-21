@@ -323,7 +323,7 @@ main {
 }
 
 .sidebar.active { 
-  max-height: 405px;
+  max-height: 415px;
 }
 
 .sidebar-info {
@@ -1136,7 +1136,7 @@ main {
 
 .mapbox {
   position: relative;
-  height: 250px;
+  height: 260px;
   width: 100%;
   border-radius: 16px;
   margin-bottom: 30px;
