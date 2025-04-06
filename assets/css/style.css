@@ -1897,6 +1897,23 @@ textarea.form-input::-webkit-resizer { display: none; }
     width: 200%;
   }
 
+  /* Custom Components */
+  /* Clients */
+    .clients-item-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    background-color: #ffbb5c;
+    width: 100%;
+    max-width: 209px;
+    height: auto;
+    aspect-ratio: 16/10;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+  }
+
 }
 
 
