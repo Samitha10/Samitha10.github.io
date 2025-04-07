@@ -74,7 +74,8 @@
    */
 
   /* font-family */
-  --ff-poppins: 'Poppins', sans-serif;
+  /* --ff-poppins: 'Poppins', sans-serif; */
+  --ff-inter: 'Inter', sans-serif;
 
   /* font-size */
   --fs-1: 24px;
@@ -153,7 +154,7 @@ input, textarea {
 
 :focus { outline-color: var(--orange-yellow-crayola); }
 
-html { font-family: var(--ff-poppins); }
+html { font-family: var(--ff-inter); }
 
 body { background: var(--smoky-black); }
 
@@ -322,7 +323,7 @@ main {
 }
 
 .sidebar.active { 
-  max-height: 405px;
+  max-height: 415px;
 }
 
 .sidebar-info {
@@ -755,7 +756,7 @@ main {
 
 .clients-item img {
   width: 100%;
-  filter: grayscale(1);
+  /* filter: grayscale(1); */
   transition: var(--transition-1);
 }
 
@@ -1135,7 +1136,7 @@ main {
 
 .mapbox {
   position: relative;
-  height: 250px;
+  height: 260px;
   width: 100%;
   border-radius: 16px;
   margin-bottom: 30px;
@@ -1896,5 +1897,23 @@ textarea.form-input::-webkit-resizer { display: none; }
     width: 200%;
   }
 
+  /* Custom Components */
+  /* Clients */
+    .clients-item-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    background-color: #ffbb5c;
+    width: 100%;
+    max-width: 209px;
+    height: auto;
+    aspect-ratio: 16/10;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+  }
 
 }
+
+
